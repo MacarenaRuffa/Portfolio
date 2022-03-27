@@ -1,0 +1,107 @@
+body{
+    font-family: 'Open Sans', serif;
+}
+
+header{
+    text-align:center;
+    background-color:rgb(219, 219, 219);
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    border-top: solid;
+    border-width: 7px;
+    border-color: rgb(133, 131, 131);
+}
+
+main{
+    text-align:center;
+    background-color:rgb(219, 219, 219);
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    border-bottom:solid;
+    border-width: 7px;
+    border-color: rgb(133, 131, 131);
+}
+
+header h1{
+    margin-top: 210px;
+    font-size: 70px;      
+}
+
+header h2{
+    font-size: 40px; 
+    margin-bottom: 210px;
+}
+
+main .col-md-2, .col-md-4, .col-md-1{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+main .col-md-2{
+    margin-top: 75px;
+    width: 180px;
+}
+
+main .col-md-10{
+    text-align: justify;
+    margin-top: 60px;
+}
+
+main .col-md-4{
+    width: 500px;
+    text-align: justify;
+    margin-top: 60px;
+    filter:brightness(1.1); 
+    mix-blend-mode: multiply;
+}
+
+main .col-md-1{
+    width: 100px;
+    filter:brightness(1.1); 
+    mix-blend-mode: multiply;
+    margin-left: 170px;
+    margin-top: 60px;
+}
+
+main p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#contact img{
+    filter:brightness(1.2); 
+    mix-blend-mode: multiply;
+}
+
+input{
+    width: 265px;
+}
+
+#enviar{
+    width: 145px;
+    margin-bottom: 50px;
+}
+
+footer{
+    height: auto;
+}
+
+footer div{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    filter:brightness(1.1); 
+    mix-blend-mode: multiply;
+    height: 30px;
+    width: 30px;
+}
+
